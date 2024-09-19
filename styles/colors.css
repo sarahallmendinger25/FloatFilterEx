@@ -1,0 +1,42 @@
+body{
+    background-image: radial-gradient(rgb(201, 71, 234), orange, rgb(250, 49, 136));
+}
+
+header, footer{
+    background-color: #C29AC2;
+    color:white;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+img{
+    max-width: 300px;
+    filter: brightness(.9) grayscale(.7) contrast(1.5);
+    
+}
+img:hover{
+    filter: blur(3px) brightness(.9) grayscale(.7) contrast(1.5);
+}
+
+.card{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px -10px 10px #4F0F53;
+    border:1px solid #0b5110;
+    background-color: #f0bef4;
+    transition: transform 1s ease-in-out;
+}
+
+.transform:hover{
+    transform: scale(.99) rotate(5deg) ;
+    transition: transform 1s ease-in-out;
+}
+.content{
+    background-color: #87468B;
+    overflow:auto;
+    padding: 2px;
+    margin: auto;
+    color: #f1558e;
+}
